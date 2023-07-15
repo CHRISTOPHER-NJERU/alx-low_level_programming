@@ -12,10 +12,17 @@
  */
 int main(void)
 {
-	char alphabet;
-	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+	int lowercase = 'a';
+	int uppercase = 'A';
+	while (lowercase <= 'z')
 	{
-		putchar(alphabet);
+		putchar (lowercase);
+		lowercase += 1;
+	}
+	while (uppercase <= 'Z')
+	{
+		putchar (uppercase);
+		uppercase += 1;
 	}
 	putchar ('\n');
 	return (0);
