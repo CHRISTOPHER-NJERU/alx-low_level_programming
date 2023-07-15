@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 #include <ctype.h>
 /* more headers goes there */
 
@@ -11,18 +12,11 @@
  */
 int main(void)
 {
-	int n; 
-
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	/* your code goes there */
-	
-	char alp[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-	int i; 
-	for (i = 0; i <= 52; i++);
+	char alphabet;
+	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 	{
-		putchar (alp[52]);
+		putchar(alphabet);
 	}
-	putchar ('\n')
+	putchar ('\n');
 	return (0);
 }
