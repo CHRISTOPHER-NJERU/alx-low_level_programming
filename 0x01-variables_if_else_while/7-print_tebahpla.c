@@ -14,12 +14,12 @@
 
 int main(void)
 {
-	char alphabet;
+	char = alp_reverse;
 
-	for (alphabet = "z"; alphabet >= "a"; alphabet --)
+	for (alp_reverse = 'z'; alp_reverse >= 'a'; alph_reverse--)
 	{
-		putchar("alphabet");
-		putchar("\n");
+		putchar(alph_reverse);
 	}
+	putchar('\n');
 	return (0);
 }

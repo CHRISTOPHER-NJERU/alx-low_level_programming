@@ -12,14 +12,16 @@
 
 int main(void)
 {
-	int num;
-	char alphabet;
+	int i;
 
-	for (num = 0; num < 10; num ++)
-		putchar((num % 10) + '0')
-
-	for (alphabet = 'a', alphabet <= 'f'; alphabet ++)
-		putchar(alphabet);
+	for (i = 48; i < 58; i++)
+	{
+		putchar(i);
+	}
+	for (i = 97; i < 103; i++)
+	{
+		putchar(i);
+	}
 	putchar('\n');
 	return (0);
 }
