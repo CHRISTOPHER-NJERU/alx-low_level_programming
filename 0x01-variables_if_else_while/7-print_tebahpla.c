@@ -1,22 +1,25 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 #include <ctype.h>
+
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
 /**
- * main - prints all single digit numbers of base 10 starting from 0. Using putchar.
+ * main - Entry point
  *
- * Return: Always (0) successful
+ * Return: Always (0) success
  */
+
 int main(void)
 {
-	int i;
+	char alphabet;
 
-	for (i = 48; i < 58; i ++)
+	for (alphabet = "z"; alphabet >= "a"; alphabet --)
 	{
-		putchar(i);
+		putchar("alphabet");
+		putchar("\n");
 	}
-	putchar("\n");
 	return (0);
 }
