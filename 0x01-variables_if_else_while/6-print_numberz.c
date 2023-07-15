@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
-#include <ctype.h>
+#include <stdio.h>
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
@@ -9,14 +9,15 @@
  *
  * Return: Always (0) successful
  */
+
 int main(void)
 {
-	int i;
+	int d = '0';
 
-	for (i = 48; i < 58; i ++)
+	while (d <= '9')
 	{
-		putchar(i);
+		putchar(d);
 	}
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
