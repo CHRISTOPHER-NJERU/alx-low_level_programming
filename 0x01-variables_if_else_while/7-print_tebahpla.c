@@ -1,7 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-#include <ctype.h>
 
 /* more headers goes there */
 
@@ -14,11 +13,11 @@
 
 int main(void)
 {
-	char = alp_reverse;
+	char letter;
 
-	for (alp_reverse = 'z'; alp_reverse >= 'a'; alph_reverse--)
+	for (letter = 'z'; letter >= 'a'; letter--)
 	{
-		putchar(alph_reverse);
+		putchar(letter);
 	}
 	putchar('\n');
 	return (0);
