@@ -1,5 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
+
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
@@ -12,15 +14,16 @@
 
 int main(void)
 {
-	int i;
+	int num;
+	char alph;
 
-	for (i = 48; i < 58; i++)
+	for (num = 0; num <= 9; num++)
 	{
-		putchar('i');
+		putchar((num % 10) + '0');
 	}
-	for (i = 97; i < 103; i++)
+	for (alph = 'a'; alph <= 'f'; alph++)
 	{
-		putchar('i');
+		putchar(alph);
 	}
 	putchar('\n');
 	return (0);
