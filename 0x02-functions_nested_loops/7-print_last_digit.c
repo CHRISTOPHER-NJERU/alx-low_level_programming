@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * Print_last_digit - Print last digit of a number.
+ * print_last_digit - Print last digit of a number.
  *
  * @n: Input number as an integer.
  *
@@ -19,7 +19,7 @@ int print_last_digit(int n)
 		_putchar(-j + '0');
 		return (-j);
 	}
-	else 
+	else
 	{
 		_putchar(j + '0');
 		return (j);
