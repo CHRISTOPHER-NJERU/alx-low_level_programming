@@ -12,9 +12,9 @@
 void puts2(char *str)
 {
 	char *s = str;
+	int o;
 	int longi = 0;
 	int t = 0;
-	int o;
 
 	while (*s != '\0')
 	{
