@@ -11,10 +11,10 @@
 
 void puts2(char *str)
 {
-	char *s = str;
-	int o;
 	int longi = 0;
 	int t = 0;
+	char *s = str;
+	int o;
 
 	while (*s != '\0')
 	{
