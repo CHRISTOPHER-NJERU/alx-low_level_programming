@@ -1,3 +1,14 @@
+#include "main.h"
+
+/**
+ * _atoi - convert a string to an integer.
+ *
+ * @s: String to convert.
+ *
+ * Return: (0) no number and (n) for integer.
+ *
+ */
+
 int _atoi(char *s)
 {
 	int i, d, n, len, f, digit;
