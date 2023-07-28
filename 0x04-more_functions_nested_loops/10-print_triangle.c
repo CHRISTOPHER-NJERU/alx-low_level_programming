@@ -11,28 +11,22 @@
 
 void print_triangle(int size)
 {
-	int i, j, k;
-/*i is row, j is space, k is #*/
-	if (size <= 0)
+	int hash, index;
+
+	if (size > 0)
 	{
-		_putchar('\n');
-	}
-	else
-	{
-		for (i = 0; i <= size; i++)
+		for (hash = 1; hash <= size; hash++)
 		{
-			for (j = size - i;j--)
+			for (index = size - hash; index > 0; index--)
 			{
 				_putchar(' ');
 			}
-			for (k = 1; k <= i; k++)
+			for (index = 0; index < hash; index++)
 			{
 				_putchar('#');
 			}
-			_putchar('\n');
+			if (hash == size)
+				_putchar('\n');
 		}
 	}
 }
-
-
-
